@@ -1,7 +1,6 @@
 from scrapy import Spider, Request
 from scrapy.http import Response
 from scrapy.crawler import CrawlerProcess
-from scrapy_splash import  SplashRequest
 
 
 class TgjuSpider(Spider):

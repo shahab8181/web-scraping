@@ -5,8 +5,8 @@ from fake_useragent import FakeUserAgent
 
 url = r'https://www.mongard.ir/{}'
 user_agent = FakeUserAgent()
-email = 'ggod818181@gmail.com'
-password = 'sham8181'
+email = ... # NOTE: your email address
+password = ... #NOTE: your password
 
 session = requests.Session()
 request_1 = session.get(

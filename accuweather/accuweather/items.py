@@ -4,10 +4,6 @@
 # https://docs.scrapy.org/en/latest/topics/items.html
 
 import scrapy
-from itemloaders.processors import MapCompose, TakeFirst
-
-def get_city(value: str):
-    return value.split(',')[1]
 
 class AccuweatherItem(scrapy.Item):
     city = scrapy.Field()
