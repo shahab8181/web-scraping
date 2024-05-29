@@ -7,7 +7,7 @@ class GithubSpider(scrapy.Spider):
     name = "github"
     allowed_domains = ["github.com"]
     data = {
-        'username': ..., # NOTE: your username or email
+        'username': ..., # NOTE: your username or email address
         'password': ... # NOTE: your password
     }
     
