@@ -1,5 +1,5 @@
 from requests import api
-from json import dumps, dump, loads
+from json import dumps
 from fake_useragent import FakeUserAgent
 
 
